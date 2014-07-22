@@ -37,6 +37,9 @@ typedef struct st_enemy{
     uint8_t frame;//Current animation frame
 } enemy;
 
+extern const int inilives;
+extern const SDL_Color color_menutext;
+
 extern uint8_t state, level;
 extern int score, lives;
 extern SDL_Surface *screen;
