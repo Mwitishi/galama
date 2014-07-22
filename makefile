@@ -8,7 +8,7 @@ WINSDLFLAGS=-lSDLmain -lSDL -lSDL_image -lSDL_ttf
 SOURCEDIR=./
 BINDIR=../bin/
 
-CSOURCE=galama.c
+CSOURCE=galama.c gal_interf.c
 INDIR_CSOURCE=$(addprefix $(SOURCEDIR),$(CSOURCE))
 CHEADER=galama.h
 INDIR_CHEADER=$(addprefix $(SOURCEDIR),$(CHEADER))
